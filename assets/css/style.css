@@ -1,0 +1,492 @@
+.cgelogo{
+    height: 8rem;
+  }
+.fame {
+    object-fit: contain;
+    height: 70%;
+    width: 70%;
+}
+.why-choose {
+	background: #2A2D2F;
+	padding-top: 70px;
+}
+.why-choose::before {
+	position: absolute;
+	left: 0;
+	width: 48%;
+	background: #FC6761;
+	content: "";
+	height: 100%;
+	top: 0;
+}
+.why-choose .why-img {
+	position: relative;
+	margin-top: 30px;
+	border: 5px solid #fff;
+	border-radius: 3px;
+}
+.why-choose .why-img img{
+	width:100%;
+}
+.why-choose .why-img .video-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-size: 15px;
+	margin: -31px 0 0 -86.4px;
+	background: #fff;
+	padding: 16px 25px;
+	color: #353535;
+	border-radius: 50px;
+	text-transform: capitalize;
+}
+.why-choose .why-img .video-play:hover{
+	background:#379CB0;
+	color:#fff;
+}
+.why-choose .why-img .video-play i {
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background: #379CB0;
+	border-radius: 100%;
+	text-align: center;
+	padding-left: 5px;
+	z-index: 2;
+	position: relative;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.why-choose .why-img .video-play:hover i{
+	background:#fff;
+	color:#379CB0;
+}
+.why-choose .waves-block .waves {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	background: rgba(55, 156, 176, 0.4);
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	border-radius: 100%;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+	top: -4px;
+	left: 6px;
+	z-index: 1;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.why-choose .video-play:hover .waves-block .waves{
+	background-color:rgba(255, 255, 255, 0.4);
+}
+.why-choose .waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.why-choose .waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.why-choose .waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.why-choose .single-choose {
+	position: relative;
+	margin-top: 30px;
+}
+.why-choose .single-choose i {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 100%;
+	text-align: center;
+	position: relative;
+	left: 0;
+	font-size: 25px;
+	color: #fff;
+	top: 0;
+	background: #379CB0;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.why-choose .single-choose:hover i{
+	background:#fff;
+	border-radius:0px;
+}
+.why-choose .single-choose h4 {
+	font-size: 18px;
+	color: #fff;
+	margin: 15px 0;
+}
+.why-choose .single-choose p {
+	color: #eee;
+}
+.about-video .waves-block .waves {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: rgba(239, 242, 243, 0.25);
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	border-radius: 100%;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+	top: -41px;
+	left: -41px;
+	z-index: 1;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+.about-video .waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.about-video .waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.about-video .waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.call-to-action {
+	padding: 40px 0;
+	position: relative;
+	background: #fff;
+}
+.call-to-action h2 {
+	color: #fff;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.call-to-action p {
+	color: #fff;
+}
+.call-to-action .btn {
+	background: #FC6761;
+	color: #fff;
+	margin-top: 5px;
+	border-color: #fff;
+}
+.call-to-action .btn:hover{
+	background:transparent;
+	color:#fff;
+}
+.tex{
+    color: #fff;
+    text-align: center;
+}
+.tex1{
+    color: #fff;
+}
+@-webkit-keyframes waves {
+    0% {
+        -webkit-transform: scale(0.2, 0.2);
+        transform: scale(0.2, 0.2);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0.9;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+@keyframes waves {
+    0% {
+        -webkit-transform: scale(0.2, 0.2);
+        transform: scale(0.2, 0.2);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0.9;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+.slider-area .single-slider .slider-cap-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* line 25, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__img {
+    width: 42%;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* line 25, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__img {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 25, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__img {
+      width: 55%;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 25, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__img {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 25, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__img {
+      display: none;
+    }
+  }
+  
+  /* line 40, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__img img {
+    width: 100%;
+  }
+  
+  /* line 45, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 45, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+      width: 40%;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 45, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+      width: 100%;
+      padding-left: 86px;
+      padding-bottom: 68px;
+      padding-top: 61px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 45, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption {
+      width: 100%;
+      padding-left: 37px;
+      padding-bottom: 46px;
+      padding-top: 50px;
+    }
+  }
+  
+  /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #140C40;
+    line-height: 1.2;
+    display: block;
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+      font-size: 56px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+      font-size: 45px;
+      line-height: 1.2;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+      font-size: 34px;
+      line-height: 1.4;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+      font-size: 42px;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 63, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
+      font-size: 30px;
+      line-height: 1.4;
+      margin-bottom: 23px;
+    }
+  }
+  
+  /* line 91, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 span {
+    color: #140C40;
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* line 95, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 9px;
+    background: #FA8F77;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  @media (max-width: 575px) {
+    /* line 95, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 span::before {
+      height: 6px;
+    }
+  }
+  
+  /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+    margin-bottom: 39px;
+    display: block;
+    padding-right: 356px;
+    color: #1F2C38;
+  }
+  
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      padding-right: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      padding-right: 35px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      padding-right: 21px;
+      margin-bottom: 13px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      padding-right: 100px;
+      margin-bottom: 24px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 109, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
+      padding-right: 10px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 139, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 139, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+  
+  /* line 148, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1 {
+    font-size: 60px;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 148, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1 {
+      font-size: 45px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* line 148, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1 {
+      font-size: 38px;
+    }
+  }
+  
+  /* line 159, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+  .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 9px;
+    background: #FA8F77;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  @media (max-width: 575px) {
+    /* line 159, C:/Users/HP/Desktop/jun-2020/279.Business/assets/scss/_h1-hero.scss */
+    .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1::before {
+      height: 6px;
+    }
+  }
