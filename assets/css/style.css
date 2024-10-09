@@ -188,6 +188,26 @@
 .tex1{
     color: #fff;
 }
+.badge-soft-primary {
+  color: #3e91df;
+  background-color: rgba(31, 85, 222, .08);
+}
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  /* display:flex; */
+  /* -webkit-box-align:start; */
+  -ms-flex-align: start;
+  align-items: flex-start
+}
+.mr-2, .mx-2 {
+  margin-right: .6rem !important;
+}
+.media-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
 @-webkit-keyframes waves {
     0% {
         -webkit-transform: scale(0.2, 0.2);
@@ -494,3 +514,194 @@
     color: #fff;
     height: 20px;
   }
+  .team {
+    background: #F5F8F9;
+    overflow: hidden;
+  }
+  .team .single-team {
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+  }
+  .team .single-team:hover{
+    -webkit-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.15);
+    box-shadow:0px 0px 15px rgba(0, 0, 0, 0.15);
+  }
+  /* Team Head */
+  .team .team-head{
+    position:relative;
+  }
+  .team .team-head img{
+    z-index:5;
+    width:100%;
+    height: 20rem;
+  }
+  .team .team-position {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-align: center;
+    position: absolute;
+    background: #3e91df;
+    color: #fff;
+    padding: 5px 20px;
+    bottom: 0;
+    left: -14px;
+  }
+  .team .team-position::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -25px;
+    border-left: 14px solid transparent;
+    border-top: 12px solid transparent;
+    border-bottom: 13px solid #3e91df;
+  }
+  .team .team-position span {
+    font-size: 14px;
+    position: relative;
+    font-weight: 600;
+  }
+  .team .team-position span::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -18px;
+    width: 36px;
+    height: 2px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  /* Team Bottom */
+  .team .team-bottom {
+    padding: 20px;
+    background: #fff;
+  }
+  .team .team-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  .team .team-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    bottom: -2px;
+    background: #d5271c;
+  }
+  /* Social */
+  .team .team-social {
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  .team .team-social li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .team .team-social li:last-child{
+    margin:0;
+  }
+  .team .team-social a {
+    text-align: center;
+    color: #353535;
+    display: block;
+    width: 28px;
+    height: 28px;
+    line-height: 26px;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 50px;
+  }
+  .team .team-social a:hover{
+    background:#379CB0;
+    color:#fff;
+    border-color:transparent;
+  }
+  .team .team-social {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  /* Team Slider Control */
+  .team button {
+    position: absolute;
+    top: 50%;
+    font-size: 28px;
+    z-index: 1;
+    padding: 5px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    margin: -30px 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    opacity:0;
+    visibility:hidden;
+  }
+  .team:hover button{
+    opacity:1;
+    visibility:visible;
+  }
+  .team button:hover{
+    background:#FC6761;
+  }
+  .team button span {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 100%;
+    display: inline-block;
+    background: #FC6761;
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .team button:hover span{
+    background:#fff;
+    color:#353535;
+  }
+  .team button.PrevArrow {
+    left: -70px;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .team:hover button.PrevArrow{
+    transform: translateX(0%);
+  }
+  .team button.NextArrow{
+    right: -70px;
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .team:hover button.NextArrow{
+    transform: translateX(0%);
+  }
+  /* Team Home */
+  .team.home .single-team{
+    margin-bottom:10px;
+  }
+  .more-text {
+    display: none; /* Hide the additional text initially */
+}
+
+.read-more {
+  color: #3e91df;
+    cursor: pointer;
+    text-decoration: none;
+}
