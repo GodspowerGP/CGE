@@ -1,5 +1,5 @@
 .cgelogo{
-    height: 8rem;
+    height: 5rem;
   }
 .fame {
     object-fit: contain;
@@ -14,7 +14,7 @@
 	position: absolute;
 	left: 0;
 	width: 48%;
-	background: #FC6761;
+	background: #d5271c;
 	content: "";
 	height: 100%;
 	top: 0;
@@ -172,7 +172,7 @@
 	color: #fff;
 }
 .call-to-action .btn {
-	background: #FC6761;
+	background: #d5271c;
 	color: #fff;
 	margin-top: 5px;
 	border-color: #fff;
@@ -489,4 +489,8 @@
     .slider-area .single-slider .slider-cap-wrapper .hero__caption.hero__caption2 h1::before {
       height: 6px;
     }
+  }
+  .xt svg{
+    color: #fff;
+    height: 20px;
   }
