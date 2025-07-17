@@ -62,76 +62,82 @@
                 Explore opportunities</p>
           </div>
   
-          <div class="row contact-info">
-  
-            <div class="col-md-4">
-              <div class="contact-address">
-                <i class="ion-ios-location-outline"></i>
-                <h3>Address</h3>
-                <address>No. 16, Biaduo Street, S.W. Ikoyi, Lagos.</address>
-              </div>
-            </div>
-  
-            <div class="col-md-4">
-              <div class="contact-phone">
-                <i class="ion-ios-telephone-outline"></i>
-                <h3>Phone Number</h3>
-                <p><a href="tel:+09041698087">09041698087</a></p>
-              </div>
-            </div>
-  
-            <div class="col-md-4">
-              <div class="contact-email">
-                <i class="ion-ios-email-outline"></i>
-                <h3>Email</h3>
-                <p><a href="mailto:info@ceg.ng">info@ceg.ng</a></p>
-              </div>
-            </div>
-  
-          </div>
-  
-          <form action="sendEmail.php" method="post" role="form" class="contactForm" id="contactForm">
-            <div class="row mb-3">
-              <div class="form-group col-md-6 mb-3">
-                <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Firstname" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validation text-danger"></div>
-              </div>
-              <div class="form-group mb-3 col-md-6">
-                <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Lastname" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validation text-danger"></div>
-              </div>
-              <div class="form-group ">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Work email" data-rule="email" data-msg="Please enter a valid email">
-                <div class="validation text-danger"></div>
-              </div>
-            </div>
-            
-            <div class="row">
-              <div class="form-group col-md-6">
-                <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone number" data-rule="minlen:8" data-msg="Please enter at least 8 chars of phone number">
-                <div class="validation text-danger"></div>
-              </div>
-              <div class="form-group col-md-6 mb-3">
-                <select name="state" class="form-control" id="state" data-rule="required" data-msg="Please select a state">
-                  <option value="">Select state</option>
-                  <option value="Abuja">Abuja</option>
-                  <option value="Lagos">Lagos</option>
-                  <option value="Osun">Osun</option>
-                  <option value="Ondo">Ondo</option>
-                </select>
-                <div class="validation text-danger"></div>
-              </div>
-            </div>
-          
-            <div class="form-group mb-3">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation text-danger"></div>
-            </div>
-          
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </div>
-          </form>
+          <div class="row">
+  <!-- Contact Info Column (Left) -->
+  <div class="col-lg-5 mb-5 mb-lg-0">
+    <div class="row contact-info">
+      <div class="col-12 mb-2">
+        <div class="contact-address">
+          <i class="ion-ios-location-outline"></i>
+          <h3>Address</h3>
+          <address>No. 16, Biaduo Street, S.W. Ikoyi, Lagos.</address>
+        </div>
+      </div>
+
+      <div class="col-12 mb-2">
+        <div class="contact-phone">
+          <i class="ion-ios-telephone-outline"></i>
+          <h3>Phone Number</h3>
+          <p><a href="tel:+09041698087">09041698087</a></p>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="contact-email">
+          <i class="ion-ios-email-outline"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:info@ceg.ng">info@ceg.ng</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Column (Right) -->
+  <div class="col-lg-7 mt-3">
+    <form action="sendEmail.php" method="post" role="form" class="contactForm" id="contactForm">
+      <div class="row mb-3">
+        <div class="form-group col-md-6 mb-3">
+          <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Firstname" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validation text-danger"></div>
+        </div>
+        <div class="form-group mb-3 col-md-6">
+          <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Lastname" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validation text-danger"></div>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Work email" data-rule="email" data-msg="Please enter a valid email">
+          <div class="validation text-danger"></div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="form-group col-md-6">
+          <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone number" data-rule="minlen:8" data-msg="Please enter at least 8 chars of phone number">
+          <div class="validation text-danger"></div>
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <select name="state" class="form-control" id="state" data-rule="required" data-msg="Please select a state">
+            <option value="">Select state</option>
+            <option value="Abuja">Abuja</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Osun">Osun</option>
+            <option value="Ondo">Ondo</option>
+          </select>
+          <div class="validation text-danger"></div>
+        </div>
+      </div>
+    
+      <div class="form-group mb-3">
+        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+        <div class="validation text-danger"></div>
+      </div>
+    
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </form>
+  </div>
+</div>
           
   
         </div>
@@ -147,10 +153,10 @@
             </div>
             <div class="col-auto mb-3">
               <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="#!">Home </a></li>
-                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="#!">About</a></li>
-                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="#!">Programmers</a></li>
-                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="#!">Event</a></li>
+                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="index.html">Home </a></li>
+                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="about-us.html">About</a></li>
+                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="programmes.html">Programmers</a></li>
+                <li class="mb-3"><a class="text-100 fw-light text-decoration-none" href="events.html">Event</a></li>
               </ul>
             </div>
             <div class="col-auto mb-3">
@@ -162,13 +168,13 @@
               </ul>
             </div>
           </div>
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-auto mb-2">
-              <p class="mb-0 fs--1 my-2 text-100">&copy; 2024 CEG. All rights reserved.
+              <p class="mb-0 fs--1 my-2 text-200">&copy; 2025 CEG. All rights reserved.
               </p>
             </div>
           </div>
-        </div><!-- end of .container-->
+        </div>
 
       </section>
     </main>

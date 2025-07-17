@@ -844,6 +844,14 @@
 	position: relative;
 	margin-top: 7px;
 }
+.temp h2{
+  font-size: 45px !important;
+}
+.temp h4{
+  font-size: 24px !important;
+}
+
+
 /* Table Ribbon */
 .testimonials .ratting-main {
 	position: absolute;
